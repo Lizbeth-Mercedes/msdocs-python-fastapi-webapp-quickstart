@@ -20,7 +20,7 @@
 name: Build and deploy Python app to Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: demo-fastapi001  # set this to the name of your Azure Web App
+  AZURE_WEBAPP_NAME: demopythonqa  # set this to the name of your Azure Web App
   PYTHON_VERSION: '3.12'              # set this to the Python version to use
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   STARTUP_COMMAND: 'gunicorn --bind=0.0.0.0 --workers=4 startup:app'           # set this to the startup command required to start the gunicorn server. default it is empty
